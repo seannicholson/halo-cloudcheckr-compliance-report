@@ -27,11 +27,16 @@ Install from pip with pip install cloudpassage. If you want to make modification
 
 # Running
 Run *python cc_halo_complinace_report.py* to generate a CSV of Halo installations across your AWS
-instances that listed in CloudCheckr.
+instances that are listed in CloudCheckr.
 Will show based on AWS instance ID match if Halo is installed (requires Halo agent v3.9.5 or later)
-Will show based on AWS AMI ID if the instance has a compatible OS. (If the AMI that the instanceis based off is listed for a instance with Halo already installed, then Halo compatible will show as True)
+Will show based on AWS AMI ID if the instance has a compatible OS. (If the AMI that the instance is based off is listed for a instance with Halo already installed, then Halo compatible will show as True)
 Will check AMI descriptions for AMI's listed in OtherLinux category for OS string matches for Halo
 compatible OSes.
+
+# Reports
+This script produces two CSV reports in the reports directly.
+1. Halo Compliance Report with date stamp
+2. List of all AMI current showing for active servers in the Halo portal with OS platform.
 
 
 # Dependencies
