@@ -36,7 +36,7 @@ compatible OSes.
 # Reports
 This script produces two CSV reports in the reports directly.
 1. Halo Compliance Report with date stamp
-2. List of all AMI current showing for active servers in the Halo portal with OS platform.
+2. List of all AMI currently showing for active servers in the Halo portal with OS platform.
 
 
 # Dependencies
